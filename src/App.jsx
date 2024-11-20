@@ -1,7 +1,7 @@
-import Typography from "@mui/material/Typography";
+import { VegaLite } from "react-vega";
+import { createPlot } from "./vega-utils";
 
-function App() {
-  return <Typography variant="h2">Hello React!</Typography>;
+export function VegaPlot() {
+  const spec = createPlot({});
+  return <VegaLite spec={spec} />;
 }
-
-export default App;
