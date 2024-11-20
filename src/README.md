@@ -1,3 +1,3 @@
 ## Streudiagramm mit cars.json
 
-![](public/Streudiagramm.png)
+![](/public/Streudiagramm.png)
